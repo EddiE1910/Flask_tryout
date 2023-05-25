@@ -7,4 +7,4 @@ if __name__ == '__main__':
 
 @app.route('/')
 def home():
-    return "<p>Hello world!</p>"
+    return "<p>Dit zou eigenlijk in de template map moeten staan als .html bestand</p>"
