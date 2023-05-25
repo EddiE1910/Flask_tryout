@@ -8,7 +8,3 @@ if __name__ == '__main__':
 @app.route('/')
 def home():
     return "<p>Hello world!</p>"
-
-@app.route('/test')
-def test():
-    return "Dit is een test"
